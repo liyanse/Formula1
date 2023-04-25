@@ -1,5 +1,5 @@
-langchain 
-openai 
-numpy
-pinecone
-unstructured 
+PyPDF2
+langchain
+faiss-cpu
+openai
+python-dotenv
