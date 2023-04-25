@@ -1,0 +1,9 @@
+openai_api_key: "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"
+data_directory: "data" 
+data_files_glob: "*.txt"
+webpages:
+  - "https://en.wikipedia.org/wiki/List_of_Formula_One_drivers"
+  - "https://simple.wikipedia.org/wiki/Formula_1#:~:text=Formula%201%20is%20a%20type,%2F%20hour%20(218.5%20mph)."
+  - "https://en.wikipedia.org/wiki/List_of_Formula_One_constructors"
+tone: "friendly"
+persona: "F1 specialist"
