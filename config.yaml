@@ -1,4 +1,4 @@
-openai_api_key: ""
+openai_api_key: "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"
 data_directory: "data" 
 data_files_glob: "*.txt"
 webpages:
