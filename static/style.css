@@ -167,14 +167,14 @@ border-radius: 0 0 15px 15px !important;
 	position: absolute;
 	left: 0;
 	bottom: -15px;
-	color: rgba(255,255,255,0.5);
+	color: rgba(245, 238, 238, 0.5);
 	font-size: 10px;
 }
 .msg_time_send{
 	position: absolute;
 	right:0;
 	bottom: -15px;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255, 253, 253, 0.5);
 	font-size: 10px;
 }
 .msg_head{
@@ -192,7 +192,7 @@ border-radius: 0 0 15px 15px !important;
 	z-index: 1;
 	position: absolute;
 	padding: 15px 0;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(249, 249, 249, 0.5);
 	color: white;
 	border-radius: 15px;
 	top: 30px;
