@@ -18,3 +18,10 @@ Create a virtual environment and install the dependencies.
 Make your changes to the code.
 Commit your changes and push them to your fork.
 Create a pull request on GitHub.
+
+## Some Issues
+We'll the bot works just fine now, but there are some issues being faced;
+  - I can't seem to get it to reply to questions outside the dataset
+  - It's not as intelligent as I want it to be
+  - Maybe Langchain and Pinecone would be good resources to use
+  - 
