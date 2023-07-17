@@ -2,18 +2,18 @@
 ## We'll import these elements to other python files for references
 
 # Figure formatting
-background_color = '#white'
-font_color = 'white'
-grid_color = '#32383e'
-grid_width = 1
+BACKGROUND_COLOR = '#white'
+FONT_COLOR = '#d42424'
+GRID_COLOR = '#32383e'
+GRID_WIDTH = 1
 
 # Plot colors
-red_colors = ['white', 'darkred']
-red_colors_reversed = ['darkred', 'white']
+RED_COLORS = ['white', 'darkred']
+RED_COLORS_REVERSED = ['darkred', 'white']
 
-compound_colors = [[0, 'red'], [0.5, 'yellow'], [1, 'white']]
+COMPOUND_COLORS = [[0, 'red'], [0.5, 'yellow'], [1, 'white']]
 
-gear_shift_colors = [
+GEAR_SHIFT_COLORS = [
     [0, '#8a1fdb'],
     [1.0 / 7, '#541fdb'],
     [2.0 / 7, '#1f25db'],
@@ -24,7 +24,7 @@ gear_shift_colors = [
     [1, '#db1f1f']
 ]
 
-driver_colors = {
+DRIVER_COLORS = {
     '2023': {
         'HAM': 'rgba(0, 210, 190, 0.9)',
         'RUS': 'rgba(0, 210, 190, 0.9)',
@@ -50,42 +50,42 @@ driver_colors = {
     }
 }
 
-track_status_colors = {
+TRACK_STATUS_COLORS = {
     'Red': 'rgba(238, 75, 43, 0.25)',
     'Yellow': 'rgba(255, 255, 0, 0.25)',
     'Safety': 'rgba(255, 255, 255, 0.25)',
     'Virtual': 'rgba(255, 255, 255, 0.25)'
 }
 
-track_color = 'white'
-turn_color = '#8803fc'
+TRACK_COLOR = 'white'
+TURN_COLOR = '#8803fc'
 
 # Other plot formatting
-min_gap = 180
-max_gap = -10
-min_speed = 50
-max_speed = 350
-marker_size = 4
-line_width = 2
+MIN_GAP = 180
+MAX_GAP = -10
+MIN_SPEED = 50
+MAX_SPEED = 350
+MARKER_SIZE = 4
+LINE_WIDTH = 2
 
-param_format = {
+PARAM_FORMAT = {
     'Speed': {
         'name': 'Speed',
         'hovertemplate_prefix': 'Speed: ',
         'hovertemplate_suffix': 'kph',
-        'colorscale': red_colors_reversed,
-        'cmin': min_speed,
-        'cmax': max_speed,
+        'colorscale': RED_COLORS_REVERSED,
+        'cmin': MIN_SPEED,
+        'cmax': MAX_SPEED,
         'colorbar_title': 'Speed (kph)',
-        'ymin': min_speed,
-        'ymax': max_speed + 85,
+        'ymin': MIN_SPEED,
+        'ymax': MAX_SPEED + 85,
         'ytitle': 'Speed (kph)'
     },
     'Throttle': {
         'name': 'Throttle',
         'hovertemplate_prefix': 'Throttle: ',
         'hovertemplate_suffix': '%',
-        'colorscale': red_colors_reversed,
+        'colorscale': RED_COLORS_REVERSED,
         'cmin': 0,
         'cmax': 100,
         'ymax': 100.25,
@@ -97,7 +97,7 @@ param_format = {
         'name': 'Brake',
         'hovertemplate_prefix': 'Brake: ',
         'hovertemplate_suffix': '%',
-        'colorscale': red_colors_reversed,
+        'colorscale': RED_COLORS_REVERSED,
         'colorbar_title': 'Brake (%)',
         'cmin': 0,
         'cmax': 100,
@@ -109,7 +109,7 @@ param_format = {
         'name': 'nGear',
         'hovertemplate_prefix': '<i>Gear</i>: ',
         'hovertemplate_suffix': '',
-        'colorscale': gear_shift_colors,
+        'colorscale': GEAR_SHIFT_COLORS,
         'cmin': 1,
         'cmax': 8,
         'colorbar_title': 'Gear',
